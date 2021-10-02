@@ -1,11 +1,14 @@
-# U盘无法格式化的常见原因
+~~~markdown
+1. chkdsk
+2. formart g:
+~~~
 
-1. U盘上带有一个小开关，如果设置为锁住模式的话，便成为只读模式，无法写入与格式化。
+~~~markdown
+- 1. diskpart
+- 2. list disk
+- 3. select disk disk_id
+- 4. clean
+- 5. creat dipartment primary
+- 6. active
+~~~
 
-2. 电脑中开启了禁止改写U盘的软件，导致U盘中的文件无法删除和格式化。
-
-3. U盘中毒，查杀病毒不彻底或病毒将U盘系统文件破坏。
-
-4. 操作系统或非常规操作（如不兼容的读写设备）。
-
-5. 移动硬盘或U盘等，造成数据的损坏。
